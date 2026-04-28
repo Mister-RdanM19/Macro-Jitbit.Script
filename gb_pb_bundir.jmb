@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MacroRecorder>
+    <!-- Script GB Suicide PB by Mr.Rm19 -->
+    <Command Name="LABEL" Action="Mulai_GB" />
+    
+    <!-- Klik tombol Ready di Lobby -->
+    <!-- Ganti X dan Y sesuai resolusi layarmu -->
+    <Command Name="MOUSE CLICK" X="1150" Y="650" Button="Left" DoubleClick="false" />
+    <Command Name="DELAY" Time="15000" />
+    
+    <!-- Proses Bunuh Diri -->
+    <Command Name="KEY PRESS" Key="4" />
+    <Command Name="DELAY" Time="500" />
+    <Command Name="MOUSE DOWN" Button="Left" />
+    <Command Name="DELAY" Time="2000" />
+    <Command Name="MOUSE UP" Button="Left" />
+    
+    <!-- Tunggu Ronde Selesai -->
+    <Command Name="DELAY" Time="10000" />
+    
+    <!-- Menutup Papan Skor -->
+    <Command Name="KEY PRESS" Key="Enter" />
+    <Command Name="DELAY" Time="1000" />
+    <Command Name="KEY PRESS" Key="Enter" />
+    <Command Name="DELAY" Time="3000" />
+    
+    <!-- Klik Kembali ke Lobby / Keluar Result -->
+    <Command Name="MOUSE CLICK" X="950" Y="700" Button="Left" DoubleClick="false" />
+    <Command Name="DELAY" Time="2000" />
+    
+    <!-- Looping Balik ke Atas -->
+    <Command Name="GOTO" Label="Mulai_GB" />
+</MacroRecorder>
